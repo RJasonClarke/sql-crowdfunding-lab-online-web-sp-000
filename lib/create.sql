@@ -1,1 +1,1 @@
-CREATE TABLE crowdfunding (id PRIMARY KEY, project TEXT, users TEXT, pledges INTEGER);
+CREATE TABLE crowdfunding (id PRIMARY KEY, title TEXT, category TEXT, funding_goal INTEGER, start_date INTEGER, end_date INTEGER);
